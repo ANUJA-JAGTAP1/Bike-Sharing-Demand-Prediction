@@ -1,0 +1,12 @@
+2022-10-25 10:40:06,247:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-10-25 10:40:06,247:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-10-25 10:40:06,247:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-10-25 10:40:06,247:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-10-25 10:40:09,412:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-10-25 10:40:11,560:INFO:Initializing load_model()
+2022-10-25 10:40:11,560:INFO:load_model(model_name=app, platform=None, authentication=None, verbose=True)
