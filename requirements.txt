@@ -1,0 +1,8 @@
+fastapi
+pandas 
+numpy
+pycaret
+uvicorn
+Jinja2
+pydantic
+seaborn
