@@ -1,10 +1,1 @@
-fastapi
-scikit-learn
-pandas 
-pycaret
-uvicorn
-Jinja2
-pydantic
-seaborn
-numpy
-lightgbm
+
