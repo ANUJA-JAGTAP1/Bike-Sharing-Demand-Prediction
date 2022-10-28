@@ -1,11 +1,11 @@
 Bike-Sharing-Demand-Prediction Project2
 <p align="center"> 
-  <img src="image/2.png" alt="2.png" width="80px" height="80px">
+  <img src="images/2.png" alt="2.png" width="80px" height="80px">
 <h1 align="center">  Bike-Sharing-Demand-Prediction  </h1> 
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
      
 <p align="center"> 
-<img src="image/all.jpg" alt="all.jpg" height="382px">
+<img src="images/all.jpg" alt="all.jpg" height="382px">
 </p>
 <h2> :book:Introduction</h2>
 Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. 
