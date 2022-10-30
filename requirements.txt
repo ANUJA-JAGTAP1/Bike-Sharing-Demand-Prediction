@@ -1,5 +1,1 @@
-fastapi
-scikit-learn
-pandas 
-uvicorn
-numpy
+
