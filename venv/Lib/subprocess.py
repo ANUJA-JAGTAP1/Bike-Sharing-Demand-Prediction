@@ -415,11 +415,7 @@ def check_output(*popenargs, timeout=None, **kwargs):
     if 'input' in kwargs and kwargs['input'] is None:
         # Explicitly passing input=None was previously equivalent to passing an
         # empty string. That is maintained here for backwards compatibility.
-        if kwargs.get('universal_newlines') or kwargs.get('text'):
-            empty = ''
-        else:
-            empty = b''
-        kwargs['input'] = empty
+        kwargs['input'] = '' if kwargs.get('universal_newlines', False) else b''
 
     return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
                **kwargs).stdout
@@ -989,7 +985,7 @@ class Popen(object):
     def __repr__(self):
         obj_repr = (
             f"<{self.__class__.__name__}: "
-            f"returncode: {self.returncode} args: {self.args!r}>"
+            f"returncode: {self.returncode} args: {list(self.args)!r}>"
         )
         if len(obj_repr) > 80:
             obj_repr = obj_repr[:76] + "...>"
@@ -1525,8 +1521,10 @@ class Popen(object):
                 self.stderr.close()
 
             # All data exchanged.  Translate lists into strings.
-            stdout = stdout[0] if stdout else None
-            stderr = stderr[0] if stderr else None
+            if stdout is not None:
+                stdout = stdout[0]
+            if stderr is not None:
+                stderr = stderr[0]
 
             return (stdout, stderr)
 
@@ -2063,11 +2061,7 @@ class Popen(object):
             # The race condition can still happen if the race condition
             # described above happens between the returncode test
             # and the kill() call.
-            try:
-                os.kill(self.pid, sig)
-            except ProcessLookupError:
-                # Supress the race condition error; bpo-40550.
-                pass
+            os.kill(self.pid, sig)
 
         def terminate(self):
             """Terminate the process with SIGTERM

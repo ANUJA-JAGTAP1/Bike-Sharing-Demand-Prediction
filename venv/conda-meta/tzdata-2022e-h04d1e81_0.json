@@ -613,6 +613,7 @@
   ],
   "fn": "tzdata-2022e-h04d1e81_0.conda",
   "legacy_bz2_md5": "56daab53593f861fdea46070bfb0b680",
+  "legacy_bz2_size": 120022,
   "license": "CC-PDDC OR BSD-3-Clause",
   "link": {
     "source": "C:\\Users\\HP\\.conda\\pkgs\\tzdata-2022e-h04d1e81_0",
