@@ -15,6 +15,7 @@ current: {'deps_info': {'pip': '22.3', 'setuptools': '60.10.0', 'pycaret': '3.0.
 pickle: {'deps_info': {'pip': '21.2.4', 'setuptools': '60.10.0', 'pycaret': '3.0.0rc4', 'IPython': '8.2.0', 'ipywidgets': '7.6.5', 'tqdm': '4.64.0', 'numpy': '1.21.5', 'pandas': '1.4.2', 'jinja2': '2.11.3', 'scipy': '1.7.3', 'joblib': '1.1.0', 'sklearn': '1.1.2', 'pyod': '1.0.5', 'imblearn': '0.9.1', 'category_encoders': '2.5.1.post0', 'lightgbm': '3.3.3', 'numba': '0.55.1', 'requests': '2.27.1', 'matplotlib': '3.5.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.6.0', 'kaleido': '0.2.1', 'statsmodels': '0.13.2', 'sktime': '0.13.4', 'tbats': '1.1.1', 'pmdarima': '1.8.5', 'psutil': '5.9.3'}, 'python': {'version': '3.9.12', 'machine': 'AMD64'}}
   warnings.warn(
 
+<<<<<<< HEAD
 2022-10-30 17:00:07,733:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2022-10-30 17:00:07,733:WARNING:
@@ -32,3 +33,5 @@ current: {'deps_info': {'pip': '22.3', 'setuptools': '60.10.0', 'pycaret': '3.0.
 pickle: {'deps_info': {'pip': '21.2.4', 'setuptools': '60.10.0', 'pycaret': '3.0.0rc4', 'IPython': '8.2.0', 'ipywidgets': '7.6.5', 'tqdm': '4.64.0', 'numpy': '1.21.5', 'pandas': '1.4.2', 'jinja2': '2.11.3', 'scipy': '1.7.3', 'joblib': '1.1.0', 'sklearn': '1.1.2', 'pyod': '1.0.5', 'imblearn': '0.9.1', 'category_encoders': '2.5.1.post0', 'lightgbm': '3.3.3', 'numba': '0.55.1', 'requests': '2.27.1', 'matplotlib': '3.5.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.6.0', 'kaleido': '0.2.1', 'statsmodels': '0.13.2', 'sktime': '0.13.4', 'tbats': '1.1.1', 'pmdarima': '1.8.5', 'psutil': '5.9.3'}, 'python': {'version': '3.9.12', 'machine': 'AMD64'}}
   warnings.warn(
 
+=======
+>>>>>>> parent of c7c6d8c (update)
