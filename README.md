@@ -53,18 +53,19 @@ Attribute Information:
 
 <h2> :book: Depoyment on Heroku</h2>
 
-[![](https://github.com/sushant8525/used-car-price-prediction/blob/4242500f1d0aeb89fa3391eb533d5d19c82c08b3/images/car.png)](https://used-car-price-predictio.herokuapp.com/docs#/default/predict_predict_post
+
+[![](https://github.com/sushant8525/Bike-Sharing-Demand-Prediction/blob/2444a41c11658387495192a9c5cc3a114564f7dd/images/Screenshot%20(245).png)]((https://bike-sharing-demand-predictio.herokuapp.com/)
 )
 
-https://used-car-price-predictio.herokuapp.com/docs#/default/predict_predict_post
 
-for localhost :- http://127.0.0.1:8000/docs#/default/predict_predict_post
 
-"Fuel_Type":- 'Diesel':1  , 'Petrol':2,  'CNG':3,   'LPG':4,   'Electric':5
+for localhost :- http://127.0.0.1:8000/docs#
 
-"Transmission":-'Manual':1,    'Automatic':2
+"Seasons"='Spring':1,'Summer':2,'Autumn':3,'Winter':4
 
-"Owner_Type":-'First':1,   'Second':2,    'Third':3,    'Fourth & Above':4
+"Holiday" = 'No Holiday':0,'Holiday':1
+
+Functioning_Day" = 'No':0,'Yes':1
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
