@@ -2,7 +2,7 @@ Bike-Sharing-Demand-Prediction Project2
 <p align="center"> 
   <img src="images/2.jfif" alt="2.jfif" width="100px" height="100px">
 <h1 align="center">  Bike-Sharing-Demand-Prediction  </h1> 
-<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> SimpalyLearn </a> </h5>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
